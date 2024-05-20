@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(165, 165, 195);
+    width: 30%;
+    padding-top: 300px;
+    margin: auto;
+}
+
+.input {
+    background-color: #fff;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: copy;
+  }
+  #pass {
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .symbols{
+    display: flex;
+    flex-wrap: wrap;
+  }
