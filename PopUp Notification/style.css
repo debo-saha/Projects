@@ -1,0 +1,81 @@
+.button {
+    position: absolute;
+    top: 41%;
+    left: 46%;
+    background-color: #4CAF50; /* Green background */
+    border: none;             /* Remove borders */
+    color: white;             /* White text */
+    padding: 15px 32px;       /* Some padding */
+    text-align: center;       /* Centered text */
+    text-decoration: none;    /* Remove underline */
+    display: inline-block;    /* Make the container inline */
+    font-size: 16px;          /* Increase font size */
+    margin: 4px 2px;          /* Add some margin */
+    cursor: pointer;          /* Add a mouse pointer on hover */
+    border-radius: 12px;      /* Rounded corners */
+    transition-duration: 0.4s;/* 0.4 seconds transition effect to hover properties */
+    font-weight: 700;
+  }
+  
+  .button:hover {
+    background-color: white;  /* White background on hover */
+    color: black;             /* Black text on hover */
+    border: 2px solid #4CAF50;/* Add a green border on hover */
+  }
+  body {
+    background-color: #e0f7fa; /* Soft blue background */
+    font-family: Arial, sans-serif; /* Default font family */
+}
+body {
+    background-color: #84dfce; /* Light gray background */
+    font-family: Arial, sans-serif; /* Set a default font for the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff; /* White background for the card */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Some padding inside the card */
+    text-align: center; /* Center align the text */
+    max-width: 300px; /* Maximum width of the card */
+    margin: 20px; /* Some margin around the card */
+    display: none;
+    /* display: block; */
+}
+
+.card img {
+    width: 50px; /* Fixed width for the image */
+    height: 50px; /* Fixed height for the image */
+    margin-bottom: 20px; /* Space between image and text */
+}
+
+.card .comment {
+    color: #333; /* Darker text color */
+    font-size: 18px; /* Larger font size for the text */
+    margin: 0 0 20px; /* Space below the text */
+}
+
+.card .ok {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block display */
+    font-size: 16px; /* Font size for the button */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition-duration: 0.3s; /* Transition effect duration */
+}
+
+.card .ok:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
